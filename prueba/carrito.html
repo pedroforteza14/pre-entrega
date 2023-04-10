@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class="bg-dark">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">Mi Tienda Online</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrito.html">Productos</a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <main>
+      <section class="productos">
+        <h2>Productos</h2>
+        <ul>
+          <li>
+            <h3>Producto 1</h3>
+            <img src="./img/450_1000.jpg" alt="Producto 1">
+            <p>Televisor</p>
+            <p>45" 4K Ultra HD</p>
+            <div class="contenedor-botones">
+              <div class="boton-padre-1"><button class="boton-hijo-1">
+                -
+              </button></div>
+              <button>20% Off con tranferencia bancaria</button>
+              <div class="boton-padre-2"><button class="boton-hijo-2">
+                +
+              </button></div>
+            </div>
+            <div class="contenedor-counter"><p class="parrafo-counter">0</p></div>
+          </li>
+          <li>
+            <h3>Producto 2</h3>
+            <img src="./img/ps5.jpg" alt="Producto 2">
+            <p>Play Station 5</p>
+            <p>1 Terabyte c/ joystick</p>
+            <div class="contenedor-botones">
+              <div class="boton-padre-1"><button class="boton-hijo-1">
+                -
+              </button></div>
+              <button>3 Cuotas sin interes</button>
+              <div class="boton-padre-2"><button class="boton-hijo-2">
+                +
+              </button></div>
+            </div>
+            <div class="contenedor-counter"><p class="parrafo-counter">0</p></div>
+          </li>
+          <li>
+            <h3>Producto 3</h3>
+            <img src="./img/istockphoto-1396307692-170667a.jpg" alt="Producto 3">
+            <p>Notebook</p>
+            <p>CORE i7</p>
+            <div class="contenedor-botones">
+              <div class="boton-padre-1"><button class="boton-hijo-1">
+                -
+              </button></div>
+              <button>Ultimas unidades en stock</button>
+              <div class="boton-padre-2"><button class="boton-hijo-2">
+                +
+              </button></div>
+            </div>
+            <div class="contenedor-counter"><p class="parrafo-counter">0</p></div>
+          </li>
+        </ul>
+      </section>
+      <section class="carrito">
+        <h2>Carrito</h2>
+        <ul id="lista-carrito"></ul>
+      </section>
+      <div class="comprar">
+        <button>Comprar</button>
+      </div>
+      
+    </main>
+    <script src="app.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <footer class="bg-dark text-white">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Mi Tienda Online Forteza &copy; 2023</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+              <p><i class="fas fa-phone mr-2"></i>4568-7174</p>
+              <p><i class="fas fa-envelope mr-2"></i>info@mitiendaonline.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

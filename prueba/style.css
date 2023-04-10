@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .productos {
+    flex: 1;
+  }
+  
+  .productos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .productos li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .productos li h3 {
+    margin-top: 0;
+  }
+  
+  .productos li img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .productos li p {
+    margin-top: 10px;
+  }
+  
+  .productos li button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .carrito {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .carrito h2 {
+    margin-bottom: 20px;
+  }
+  
+  .carrito li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .carrito li h3 {
+    margin-top: 0;
+  }
+  
+  .carrito li img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .carrito li p {
+    margin-top: 10px;
+  }
+  
+  .carrito li button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .carrito button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+    
+    .carrito {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  .contenedor-botones{
+    position: relative;
+    left: 36%;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+    .boton-padre-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .boton-hijo-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contenedor-counter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
